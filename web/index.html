@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>전임상개론 조 발표 · 2026 봄학기</title>
+  <meta name="description" content="2026년 봄학기 전임상개론 조별 발표 요약 — 조장, 조원, 발표 주제를 한눈에." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-particles" aria-hidden="true"></canvas>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">전임상개론 · 2026 봄학기</p>
+      <h1 class="hero__title">조 발표 한눈에 보기</h1>
+      <p class="hero__subtitle">
+        10개 조 · <span id="stat-members">—</span>명 ·
+        주제 확정 <span id="stat-confirmed">—</span>조 ·
+        조장 확정 <span id="stat-leaders">—</span>조
+      </p>
+      <p class="hero__meta">
+        기준 자료 <code>2026-04-18_전임상개론_조별_정리.md</code>
+      </p>
+    </div>
+  </header>
+
+  <section class="controls" aria-label="검색 및 필터">
+    <div class="controls__inner">
+      <label class="search" aria-label="조, 이름, 학번, 학과, 학년으로 검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="search__icon">
+          <path d="M10 4a6 6 0 1 0 3.93 10.56l4.25 4.25 1.42-1.42-4.25-4.25A6 6 0 0 0 10 4Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+        </svg>
+        <input
+          type="search"
+          id="search"
+          placeholder="예) 5조, 이연지, 20252022, 바이오, 2학년"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </label>
+
+      <div class="chips" role="group" aria-label="필터">
+        <button type="button" class="chip" data-filter="topic">주제 확정</button>
+        <button type="button" class="chip" data-filter="leader">조장 확정</button>
+        <button type="button" class="chip" data-filter="bio">바이오헬스케어 포함</button>
+        <button type="button" class="chip" data-filter="ms-only">의생명과학만</button>
+        <button type="button" class="chip chip--reset" data-filter="reset">초기화</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="grid" class="grid" aria-live="polite"></main>
+
+  <template id="card-template">
+    <article class="card" tabindex="0">
+      <div class="card__media">
+        <img class="card__gif" loading="lazy" decoding="async" alt="" />
+        <span class="card__badge"></span>
+      </div>
+      <div class="card__body">
+        <p class="card__topic-label">발표 주제</p>
+        <h2 class="card__topic"></h2>
+        <p class="card__slide"></p>
+        <p class="card__leader">
+          <span class="card__leader-icon" aria-hidden="true">★</span>
+          <span class="card__leader-name"></span>
+        </p>
+        <ul class="card__members"></ul>
+        <p class="card__hint">클릭하여 상세 보기</p>
+      </div>
+    </article>
+  </template>
+
+  <dialog id="detail" class="modal" aria-labelledby="modal-title">
+    <button class="modal__close" type="button" aria-label="닫기">&times;</button>
+    <article class="modal__body">
+      <header class="modal__head">
+        <span class="modal__group-num"></span>
+        <span class="modal__badge"></span>
+      </header>
+      <h2 id="modal-title" class="modal__topic"></h2>
+      <p class="modal__slide"></p>
+      <img class="modal__gif" alt="" />
+      <section class="modal__roster">
+        <h3>조원</h3>
+        <ul class="modal__members"></ul>
+      </section>
+    </article>
+  </dialog>
+
+  <footer class="foot">
+    <p>
+      생성일 <span id="generated-at">—</span> ·
+      데이터 출처
+      <code>scripts/build_data.py → web/data.json</code>
+    </p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.env
+*.env.local
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+output/
+tmp/
+*.mp4
+*.png
+*.jpg
+.DS_Store
+desktop.ini
+Thumbs.db
+.claude/settings.local.json

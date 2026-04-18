@@ -1,0 +1,418 @@
+{
+  "generatedAt": "2026-04-18",
+  "source": "2026-04-18_전임상개론_조별_정리.md",
+  "groups": [
+    {
+      "id": 1,
+      "leader": "김예진",
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "김기태",
+          "studentId": "20262704",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "김예진",
+          "studentId": "20262002",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "신태환",
+          "studentId": "20232012",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "홍하율",
+          "studentId": "20252030",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "박시정",
+          "studentId": "20242007",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "leader": null,
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "조준희",
+          "studentId": "20262729",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "최재호",
+          "studentId": "20252711",
+          "department": "바이오헬스케어",
+          "year": 2
+        },
+        {
+          "name": "김형준",
+          "studentId": "20262005",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "이예은",
+          "studentId": "20262019",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "박성희",
+          "studentId": "20252008",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "최아영",
+          "studentId": "20242024",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "leader": "신희윤",
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "임지인",
+          "studentId": "20262725",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "홍지수",
+          "studentId": "20262732",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "반도현",
+          "studentId": "20262011",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "노동균",
+          "studentId": "20252005",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "신희윤",
+          "studentId": "20252015",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "김지성",
+          "studentId": "20201402",
+          "department": "의생명과학",
+          "year": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "leader": null,
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "김지윤",
+          "studentId": "20262710",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "이지환",
+          "studentId": "20262724",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "이예준",
+          "studentId": "20262020",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "박보원",
+          "studentId": "20252007",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "박현민",
+          "studentId": "20252010",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "신예림",
+          "studentId": "20242013",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "leader": "이연지",
+      "topic": "뇌질환 치료제에서 BBB 통과 평가의 중요성",
+      "topicSlideRef": "슬라이드 7번",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-5.gif",
+      "members": [
+        {
+          "name": "윤정환",
+          "studentId": "20262721",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "조빛찬",
+          "studentId": "20262024",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "이연지",
+          "studentId": "20252022",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "최지우",
+          "studentId": "20252028",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "최동찬",
+          "studentId": "20242021",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "leader": null,
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "문상훈",
+          "studentId": "20262712",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "윤수찬",
+          "studentId": "20262015",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "오세은",
+          "studentId": "20252017",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "이시은",
+          "studentId": "20252021",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "송민서",
+          "studentId": "20242011",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "leader": "이나현",
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "조은지",
+          "studentId": "20262025",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "박준혁",
+          "studentId": "20252009",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "이나현",
+          "studentId": "20252019",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "강민수",
+          "studentId": "20242002",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "leader": "신유지나",
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "서현욱",
+          "studentId": "20262717",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "박선우",
+          "studentId": "20262008",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "이수미",
+          "studentId": "20262017",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "신유지나",
+          "studentId": "20252014",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "안시아",
+          "studentId": "20232013",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "leader": null,
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "안수빈",
+          "studentId": "20262719",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "박소현",
+          "studentId": "20262009",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "정지우",
+          "studentId": "20262023",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "김의준",
+          "studentId": "20252004",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "박광진",
+          "studentId": "20242006",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "leader": null,
+      "topic": null,
+      "topicSlideRef": null,
+      "topicConfirmed": false,
+      "gifPath": "assets/gifs/placeholder.gif",
+      "members": [
+        {
+          "name": "유지윤",
+          "studentId": "20262720",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "조한재",
+          "studentId": "20262730",
+          "department": "바이오헬스케어",
+          "year": 1
+        },
+        {
+          "name": "임혁주",
+          "studentId": "20262021",
+          "department": "의생명과학",
+          "year": 1
+        },
+        {
+          "name": "문효경",
+          "studentId": "20252006",
+          "department": "의생명과학",
+          "year": 2
+        },
+        {
+          "name": "조아현",
+          "studentId": "20242020",
+          "department": "의생명과학",
+          "year": 3
+        }
+      ]
+    }
+  ]
+}
