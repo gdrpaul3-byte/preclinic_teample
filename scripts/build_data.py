@@ -1,4 +1,4 @@
-"""Parse 2026-04-18_전임상개론_조별_정리.md into web/data.json."""
+"""Parse 2026-04-18_전임상개론_조별_정리.md into docs/data.json."""
 from __future__ import annotations
 
 import json
@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 MD_PATH = ROOT / "2026-04-18_전임상개론_조별_정리.md"
-OUT_PATH = ROOT / "web" / "data.json"
+OUT_PATH = ROOT / "docs" / "data.json"
 
 GROUP_HEADER_RE = re.compile(r"^##\s*(\d+)조\s*$", re.MULTILINE)
 LEADER_RE = re.compile(r"조장:\s*(.+)")

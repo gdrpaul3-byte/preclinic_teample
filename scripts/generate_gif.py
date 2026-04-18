@@ -31,9 +31,9 @@ except Exception:
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_PATH = ROOT / "web" / "data.json"
+DATA_PATH = ROOT / "docs" / "data.json"
 TMP_DIR = ROOT / "tmp"
-OUT_DIR = ROOT / "web" / "assets" / "gifs"
+OUT_DIR = ROOT / "docs" / "assets" / "gifs"
 
 # ---- Prompt templates ------------------------------------------------------
 # Keyed by (slide, topic keywords) — extend as more topics are finalized.

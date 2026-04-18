@@ -4,7 +4,7 @@
     {
       "name": "jobalpyo-web",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "web"],
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "docs"],
       "port": 8765
     }
   ]
