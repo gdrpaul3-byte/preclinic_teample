@@ -6,7 +6,6 @@
       "id": 1,
       "leader": "김예진",
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -46,7 +45,6 @@
       "id": 2,
       "leader": null,
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -92,7 +90,6 @@
       "id": 3,
       "leader": "신희윤",
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -138,7 +135,6 @@
       "id": 4,
       "leader": null,
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -184,7 +180,6 @@
       "id": 5,
       "leader": "이연지",
       "topic": "뇌질환 치료제에서 BBB 통과 평가의 중요성",
-      "topicSlideRef": "슬라이드 7번",
       "topicConfirmed": true,
       "gifPath": "assets/gifs/group-5.gif",
       "members": [
@@ -224,7 +219,6 @@
       "id": 6,
       "leader": null,
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -264,7 +258,6 @@
       "id": 7,
       "leader": "이나현",
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -298,7 +291,6 @@
       "id": 8,
       "leader": "신유지나",
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -338,7 +330,6 @@
       "id": 9,
       "leader": null,
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [
@@ -378,7 +369,6 @@
       "id": 10,
       "leader": null,
       "topic": null,
-      "topicSlideRef": null,
       "topicConfirmed": false,
       "gifPath": "assets/gifs/placeholder.gif",
       "members": [

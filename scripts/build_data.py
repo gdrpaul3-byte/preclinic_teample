@@ -29,11 +29,10 @@ def parse_group(block: str, group_id: int) -> dict:
     topic_confirmed = topic_raw != "미정"
 
     topic_text = topic_raw if topic_confirmed else None
-    topic_slide_ref = None
     if topic_text:
+        # Strip any leading "슬라이드 N번" reference from the topic name.
         m = SLIDE_PREFIX_RE.match(topic_text)
         if m:
-            topic_slide_ref = f"슬라이드 {m.group(1)}번"
             topic_text = m.group(2).strip().strip("`")
 
     members = [
@@ -56,7 +55,6 @@ def parse_group(block: str, group_id: int) -> dict:
         "id": group_id,
         "leader": leader,
         "topic": topic_text,
-        "topicSlideRef": topic_slide_ref,
         "topicConfirmed": topic_confirmed,
         "gifPath": gif_path,
         "members": members,

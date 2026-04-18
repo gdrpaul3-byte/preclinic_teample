@@ -46,8 +46,6 @@
       topicEl.textContent = "발표 주제 미정";
       topicEl.classList.add("is-undecided");
     }
-    $(".card__slide", node).textContent = group.topicSlideRef || "";
-
     const leaderName = $(".card__leader-name", node);
     if (group.leader) {
       leaderName.textContent = `${group.leader} (조장)`;
@@ -92,8 +90,6 @@
       topicEl.textContent = "발표 주제 미정";
       topicEl.classList.add("is-undecided");
     }
-    $(".modal__slide", modal).textContent = group.topicSlideRef || "";
-
     const gif = $(".modal__gif", modal);
     gif.src = group.gifPath;
     gif.alt = isConfirmed ? `${group.id}조 발표 주제 일러스트` : "";
@@ -144,7 +140,6 @@
       `${group.id}조`,
       group.leader || "",
       group.topic || "",
-      group.topicSlideRef || "",
       ...group.members.flatMap((m) => [
         m.name,
         m.studentId,
