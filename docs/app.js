@@ -209,52 +209,6 @@
     $("#stat-leaders").textContent = String(leaders);
   }
 
-  // Particles ------------------------------------------------------
-  function startParticles() {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const canvas = $("#bg-particles");
-    const ctx = canvas.getContext("2d");
-    let w, h, particles;
-
-    function resize() {
-      w = canvas.width = window.innerWidth * devicePixelRatio;
-      h = canvas.height = window.innerHeight * devicePixelRatio;
-      canvas.style.width = window.innerWidth + "px";
-      canvas.style.height = window.innerHeight + "px";
-    }
-    resize();
-    window.addEventListener("resize", resize);
-
-    const count = Math.min(
-      80,
-      Math.floor((window.innerWidth * window.innerHeight) / 22000)
-    );
-    particles = Array.from({ length: count }, () => ({
-      x: Math.random() * w,
-      y: Math.random() * h,
-      r: (Math.random() * 1.6 + 0.4) * devicePixelRatio,
-      vx: (Math.random() - 0.5) * 0.25,
-      vy: (Math.random() - 0.5) * 0.25,
-      a: Math.random() * 0.4 + 0.15,
-    }));
-
-    function tick() {
-      ctx.clearRect(0, 0, w, h);
-      particles.forEach((p) => {
-        p.x += p.vx;
-        p.y += p.vy;
-        if (p.x < 0 || p.x > w) p.vx *= -1;
-        if (p.y < 0 || p.y > h) p.vy *= -1;
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(180, 200, 255, ${p.a})`;
-        ctx.fill();
-      });
-      requestAnimationFrame(tick);
-    }
-    tick();
-  }
-
   // Boot -----------------------------------------------------------
   async function init() {
     try {
@@ -276,11 +230,10 @@
       grid.appendChild(fragment);
 
       wireControls();
-      startParticles();
     } catch (err) {
       console.error(err);
       $("#grid").innerHTML = `
-        <p style="padding:24px;color:#f87171">
+        <p style="padding:24px;color:#b14e5b">
           data.json을 불러오지 못했습니다. <code>python scripts/build_data.py</code>를 실행했는지,
           이 페이지를 로컬 서버로 열었는지 확인하세요 (file:// 에서는 fetch가 차단될 수 있습니다).
         </p>`;
