@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18",
+  "generatedAt": "2026-04-28",
   "source": "2026-04-18_전임상개론_조별_정리.md",
   "groups": [
     {
@@ -290,9 +290,9 @@
     {
       "id": 8,
       "leader": "신유지나",
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "topic": "동물에서는 성공했지만 사람에서 실패한 후보물질 사례",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-8.gif",
       "members": [
         {
           "name": "서현욱",

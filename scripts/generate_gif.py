@@ -59,6 +59,30 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
             "pulse subtly. Loop-friendly, 4 seconds, no text changes."
         ),
     },
+    8: {
+        "image": (
+            "Clean two-panel scientific illustration on a 16:9 canvas, "
+            "educational diagram aesthetic, blue-teal palette with green and "
+            "red accents. Left panel labeled 'PRECLINICAL': a laboratory mouse "
+            "in profile with a small green checkmark badge, a drug molecule "
+            "entering its body, a tiny rising biomarker line chart in the "
+            "background. Right panel labeled 'CLINICAL': a stylized human "
+            "silhouette receiving the same drug molecule, a red X overlay on "
+            "the body, a falling biomarker chart in the background. Between "
+            "the two panels a thick horizontal arrow with the label "
+            "'TRANSLATION GAP' in clean uppercase. Minimalist, high contrast, "
+            "no clutter, no extra text."
+        ),
+        "motion": (
+            "Slow cinematic camera pan from the left mouse panel to the right "
+            "human panel. On the left the drug molecule glides into the mouse, "
+            "a soft green pulse blooms, the rising chart line draws upward. "
+            "The 'TRANSLATION GAP' arrow draws across the middle. On the right "
+            "the drug molecule arrives at the human silhouette, a red X fades "
+            "in, the falling chart line drops. Loop-friendly, 4 seconds, no "
+            "text changes."
+        ),
+    },
 }
 
 PLACEHOLDER_IMAGE_PROMPT = (
