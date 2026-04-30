@@ -38,6 +38,29 @@ OUT_DIR = ROOT / "docs" / "assets" / "gifs"
 # ---- Prompt templates ------------------------------------------------------
 # Keyed by (slide, topic keywords) — extend as more topics are finalized.
 IMAGE_PROMPTS: dict[int, dict[str, str]] = {
+    3: {
+        "image": (
+            "Clean scientific illustration, 16:9 educational diagram aesthetic, "
+            "blue-teal palette with red and gold accents. Depicts the mechanism "
+            "of the 2006 TGN1412 clinical trial failure. Center: a single large "
+            "T cell with a Y-shaped antibody labeled 'TGN1412 (CD28 super-"
+            "agonist)' bound to its surface receptor. Concentric expanding rings "
+            "of small colorful molecule dots burst outward from the T cell, "
+            "labeled clearly: 'IL-2', 'IL-6', 'TNF-α', 'IFN-γ' — a cytokine "
+            "storm. Around the periphery, six stylized human silhouettes with "
+            "small red alert symbols above their heads. Soft red radial "
+            "gradient in the background suggesting systemic inflammation. "
+            "Minimalist, high contrast, clean uppercase labels, no extra text."
+        ),
+        "motion": (
+            "Subtle camera push-in toward the central T cell. The TGN1412 "
+            "antibody binds with a brief golden pulse. Cytokine molecules burst "
+            "outward in expanding concentric waves with a faint red glow. The "
+            "six silhouettes light up sequentially with red alert pulses above "
+            "their heads. The background inflammation gradient brightens "
+            "slowly. Loop-friendly, 4 seconds, no text changes."
+        ),
+    },
     5: {
         "image": (
             "Clean scientific illustration of the blood-brain barrier, "
