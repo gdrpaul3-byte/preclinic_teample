@@ -38,6 +38,40 @@ OUT_DIR = ROOT / "docs" / "assets" / "gifs"
 # ---- Prompt templates ------------------------------------------------------
 # Keyed by (slide, topic keywords) — extend as more topics are finalized.
 IMAGE_PROMPTS: dict[int, dict[str, str]] = {
+    2: {
+        "image": (
+            "Clean scientific two-panel illustration, 16:9 educational diagram, "
+            "blue-teal palette with red, green, and gold accents. Top label "
+            "across both panels: 'IMMUNO-ONCOLOGY MODELS'. Left panel labeled "
+            "'PRECLINICAL: MOUSE XENOGRAFT': a small immunodeficient lab mouse "
+            "silhouette tagged 'nude/SCID' with a purple human tumor mass "
+            "growing on its flank; ghosted, semi-transparent T-cell silhouettes "
+            "around the mouse with red strikethrough marks; a small red "
+            "callout reads 'NO ADAPTIVE IMMUNITY'; a Y-shaped antibody labeled "
+            "'anti-PD-1' floats nearby with a small question mark icon above "
+            "it. Right panel labeled 'HUMAN PATIENT': a stylized human "
+            "silhouette holding a tumor inside, surrounded by a busy tumor "
+            "microenvironment — green CD8 T cells, orange regulatory T cells, "
+            "tumor cells with red PD-L1 receptors on their surface; the "
+            "anti-PD-1 antibody binds a PD-L1 receptor with a brief golden "
+            "highlight; small curved arrows labeled 'IMMUNE EVASION' wrap the "
+            "tumor. Between the two panels a vertical hairline divider with a "
+            "horizontal arrow labeled 'TRANSLATIONAL GAP'. Minimalist, high "
+            "contrast, clean uppercase English labels, no extra text."
+        ),
+        "motion": (
+            "Slow camera pan from the left mouse panel to the right human "
+            "panel. On the left, the purple human tumor on the mouse pulses "
+            "softly, the ghost T-cells flicker once and fade, the question "
+            "mark above the anti-PD-1 antibody bobs gently. The 'TRANSLATIONAL "
+            "GAP' arrow draws across the middle from left to right. On the "
+            "right, the anti-PD-1 antibody glides into the human tumor "
+            "microenvironment and binds a PD-L1 receptor with a brief golden "
+            "flash; the green CD8 T cells activate and pulse outward; the "
+            "'IMMUNE EVASION' arrows briefly retract. Loop-friendly, 4 "
+            "seconds, no text changes."
+        ),
+    },
     3: {
         "image": (
             "Clean scientific illustration, 16:9 educational diagram aesthetic, "

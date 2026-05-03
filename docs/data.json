@@ -43,10 +43,10 @@
     },
     {
       "id": 2,
-      "leader": null,
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "leader": "박성희",
+      "topic": "항암면역치료제의 전임상 동물모델 한계",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-2.gif",
       "members": [
         {
           "name": "조준희",
