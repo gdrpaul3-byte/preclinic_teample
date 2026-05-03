@@ -169,6 +169,38 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
             "Loop-friendly, 4 seconds, no text changes."
         ),
     },
+    9: {
+        "image": (
+            "Clean scientific illustration, 16:9 educational diagram, blue-"
+            "teal palette with red and gold accents. Top header in uppercase: "
+            "'PRECLINICAL SAFETY EVALUATION'. Center: a stylized AAV "
+            "(adeno-associated virus) capsid as a 20-sided icosahedral shape "
+            "with a small glowing DNA double helix payload visible inside, "
+            "labeled 'AAV + GENE PAYLOAD'. Four arrows radiate from the AAV "
+            "outward to four small evaluation panels arranged around it. "
+            "Top-left panel labeled 'BIODISTRIBUTION': a stylized body "
+            "silhouette with liver, heart, and brain organ icons highlighted "
+            "with small dots. Top-right panel labeled 'IMMUNOGENICITY': "
+            "Y-shaped antibodies surrounding and neutralizing an AAV particle, "
+            "with a small red exclamation mark. Bottom-left panel labeled "
+            "'INTEGRATION': a chromosome with the AAV payload inserting into "
+            "it, golden highlight at the insertion site. Bottom-right panel "
+            "labeled 'TOXICITY': a liver icon with a small red warning "
+            "triangle and a falling biomarker line. Minimalist, high contrast, "
+            "clean uppercase English labels, no extra text."
+        ),
+        "motion": (
+            "Subtle camera push-in toward the central AAV capsid. The DNA "
+            "helix inside the AAV pulses gently with a golden glow. The four "
+            "arrows draw outward to their evaluation panels in clockwise "
+            "sequence: the body organs in the biodistribution panel light up "
+            "briefly, the antibodies in the immunogenicity panel close around "
+            "the AAV with a red flash, the chromosome in the integration "
+            "panel receives the payload with a golden highlight, the liver "
+            "icon in the toxicity panel emits a faint red warning pulse. "
+            "Loop-friendly, 4 seconds, no text changes."
+        ),
+    },
     8: {
         "image": (
             "Clean two-panel scientific illustration on a 16:9 canvas, "

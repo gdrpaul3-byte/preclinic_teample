@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03",
+  "generatedAt": "2026-05-04",
   "source": "2026-04-18_전임상개론_조별_정리.md",
   "groups": [
     {
@@ -328,10 +328,10 @@
     },
     {
       "id": 9,
-      "leader": null,
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "leader": "박광진",
+      "topic": "AAV 기반 유전자 치료제의 전임상 안전성 평가",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-9.gif",
       "members": [
         {
           "name": "안수빈",
