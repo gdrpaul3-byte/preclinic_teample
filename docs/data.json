@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30",
+  "generatedAt": "2026-05-03",
   "source": "2026-04-18_전임상개론_조별_정리.md",
   "groups": [
     {
@@ -133,10 +133,10 @@
     },
     {
       "id": 4,
-      "leader": null,
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "leader": "박현민",
+      "topic": "독성 때문에 용량 설정이 어려웠던 사례",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-4.gif",
       "members": [
         {
           "name": "김지윤",
@@ -257,9 +257,9 @@
     {
       "id": 7,
       "leader": "이나현",
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "topic": "독소루비신의 항암 효능과 심독성 문제",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-7.gif",
       "members": [
         {
           "name": "조은지",

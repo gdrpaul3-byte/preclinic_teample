@@ -61,6 +61,29 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
             "slowly. Loop-friendly, 4 seconds, no text changes."
         ),
     },
+    4: {
+        "image": (
+            "Clean scientific dose-response diagram, 16:9 educational "
+            "illustration, blue-teal palette with green and red accents. "
+            "X-axis labeled 'DOSE', Y-axis labeled 'RESPONSE'. Two overlapping "
+            "bell-shaped curves: a green curve labeled 'EFFICACY' rising "
+            "smoothly to a peak; a red curve labeled 'TOXICITY' rising sharply "
+            "right behind it and overlapping the upper portion of the efficacy "
+            "curve. The narrow strip between the two curves is highlighted in "
+            "warm gold and labeled 'THERAPEUTIC WINDOW'. A small circular dose "
+            "marker (a glowing dot) sits inside this narrow gold strip, "
+            "visibly squeezed between the two rising curves. Minimalist, high "
+            "contrast, clean uppercase English labels, no extra text."
+        ),
+        "motion": (
+            "Slow camera push-in toward the therapeutic window. The green "
+            "EFFICACY curve draws upward from left to right. The red TOXICITY "
+            "curve draws upward right behind it, overlapping. The 'THERAPEUTIC "
+            "WINDOW' band glows gold. The circular dose marker oscillates "
+            "gently left and right inside the narrow gold strip, struggling to "
+            "find a stable position. Loop-friendly, 4 seconds, no text changes."
+        ),
+    },
     5: {
         "image": (
             "Clean scientific illustration of the blood-brain barrier, "
@@ -80,6 +103,36 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
             "with a faint red flash. One molecule smoothly glides through with "
             "a soft green glow trailing behind. Neurons in the brain region "
             "pulse subtly. Loop-friendly, 4 seconds, no text changes."
+        ),
+    },
+    7: {
+        "image": (
+            "Clean scientific two-panel diagram, 16:9 educational illustration, "
+            "blue-teal palette with a strong red accent reflecting "
+            "doxorubicin's signature deep red color. Top horizontal label "
+            "across both panels: 'DOXORUBICIN' with a simplified molecular "
+            "structure icon. Left panel labeled 'TUMOR': several malignant "
+            "cancer cells in muted purple, with DNA double-helix strands "
+            "inside them being intercalated and broken by red doxorubicin "
+            "molecules; a small green checkmark badge indicates successful "
+            "tumor cell death. Right panel labeled 'HEART': a stylized "
+            "cardiac muscle cell (sarcomere fibers visible) receiving the "
+            "same red doxorubicin molecules; orange-yellow oxidative stress "
+            "burst icons radiate outward, sarcomere fibers appear damaged or "
+            "frayed; a red warning triangle indicates cardiotoxicity. A "
+            "vertical hairline divides the two panels. Minimalist, high "
+            "contrast, clean uppercase English labels, no extra text."
+        ),
+        "motion": (
+            "Slow camera reveal panning from the left tumor panel to the "
+            "right heart panel. On the left, red doxorubicin molecules glide "
+            "into cancer cells, DNA strands fracture with a brief flash, "
+            "cells dim while a green checkmark pulses softly. On the right, "
+            "doxorubicin molecules arrive at the cardiac muscle cell, "
+            "orange-yellow oxidative stress bursts radiate outward in pulses, "
+            "the sarcomere fibers waver, and the red warning triangle pulses. "
+            "The 'DOXORUBICIN' label across the top emits a faint red glow. "
+            "Loop-friendly, 4 seconds, no text changes."
         ),
     },
     8: {
