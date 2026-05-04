@@ -5,9 +5,9 @@
     {
       "id": 1,
       "leader": "김예진",
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "topic": "트로글리타존 실패 사례 (동물에선 성공, 사람에선 실패)",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-1.gif",
       "members": [
         {
           "name": "김기태",

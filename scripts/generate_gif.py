@@ -38,6 +38,39 @@ OUT_DIR = ROOT / "docs" / "assets" / "gifs"
 # ---- Prompt templates ------------------------------------------------------
 # Keyed by (slide, topic keywords) — extend as more topics are finalized.
 IMAGE_PROMPTS: dict[int, dict[str, str]] = {
+    1: {
+        "image": (
+            "Clean two-panel scientific illustration on a 16:9 canvas, "
+            "educational diagram aesthetic, blue-teal palette with green and "
+            "red accents and a warm gold molecular highlight. Top horizontal "
+            "label across both panels: 'TROGLITAZONE — IDIOSYNCRATIC "
+            "HEPATOTOXICITY' with a small simplified 2D thiazolidinedione "
+            "molecular structure drawn in gold beside it. Left panel labeled "
+            "'ANIMAL STUDIES (RAT/MOUSE)': a small rodent silhouette "
+            "receiving the gold troglitazone molecule; below it a healthy "
+            "pink liver organ shape with a green checkmark badge and a "
+            "subtle label 'NORMAL LIVER FUNCTION'. Right panel labeled "
+            "'HUMAN PATIENTS (1997 → 2000)': a human silhouette receiving the "
+            "same gold troglitazone molecule; below it a damaged liver in "
+            "mottled dark red and brown with cracked-cell texture, small "
+            "hepatocyte death icons floating off, and a red warning triangle "
+            "labeled 'ACUTE HEPATIC FAILURE'; a small footnote pill near the "
+            "bottom reads 'WITHDRAWN 2000'. A vertical hairline divides the "
+            "panels. Minimalist, high contrast, clean uppercase English "
+            "labels, no extra text."
+        ),
+        "motion": (
+            "Slow camera reveal panning from the left animal panel to the "
+            "right human panel. On the left, the gold troglitazone molecule "
+            "glides into the rodent, the healthy pink liver pulses softly "
+            "with a green checkmark. On the right, the same gold molecule "
+            "arrives at the human silhouette, the liver darkens as cracked "
+            "red-brown cell textures spread outward, hepatocyte death icons "
+            "drift away, and the red warning triangle pulses. The molecular "
+            "structure at the top emits a faint warm glow. Loop-friendly, 4 "
+            "seconds, no text changes."
+        ),
+    },
     2: {
         "image": (
             "Clean scientific two-panel illustration, 16:9 educational diagram, "
