@@ -260,6 +260,37 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
     },
 }
 
+IMAGE_PROMPTS[10] = {
+    "image": (
+        "Clean scientific case-study poster, 16:9 educational diagram aesthetic, "
+        "blue-teal palette with red and warm gold accents. Title at top: "
+        "'HEPATOTOXICITY — TERMINATED DRUG CANDIDATES'. Center: a large "
+        "stylized human liver organ in soft red with subtle cracked-cell "
+        "texture and a small gold magnifying glass icon overlaid as if "
+        "examining a sample. Around the liver in four corners: four labeled "
+        "drug card tiles, each containing a small pill or capsule icon and a "
+        "drug name in clean uppercase — top-left 'TROGLITAZONE  1997→2000', "
+        "top-right 'FIALURIDINE  1993', bottom-left 'XIMELAGATRAN  2006', "
+        "bottom-right 'LUMIRACOXIB  2007'. Each card has a red 'TERMINATED' "
+        "stamp angled across it and a small red X badge in its corner. Thin "
+        "lines connect each card toward the central liver. A footer pill "
+        "near the bottom reads 'PRECLINICAL  →  CLINICAL  →  WITHDRAWN'. "
+        "Minimalist, high contrast, clean uppercase English labels, no extra "
+        "text."
+    ),
+    "motion": (
+        "Slow camera push-in toward the central damaged liver. The liver "
+        "pulses softly in red with cracked-texture detail. The four corner "
+        "drug cards appear in sequence (top-left, top-right, bottom-left, "
+        "bottom-right), each receiving its red 'TERMINATED' stamp with a "
+        "brief red flash and a small X badge appearing. Thin connecting "
+        "lines draw from each card into the liver one by one. The gold "
+        "magnifying glass slowly slides across the liver surface. Loop-"
+        "friendly, 4 seconds, no text changes."
+    ),
+}
+
+
 PLACEHOLDER_IMAGE_PROMPT = (
     "Abstract minimalist preclinical laboratory scene, soft blue and teal "
     "gradient background, floating pipette tips, petri dishes and DNA helix "

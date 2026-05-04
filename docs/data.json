@@ -367,10 +367,10 @@
     },
     {
       "id": 10,
-      "leader": null,
-      "topic": null,
-      "topicConfirmed": false,
-      "gifPath": "assets/gifs/placeholder.gif",
+      "leader": "유지윤",
+      "topic": "간독성으로 개발이 중단된 약물 사례 분석",
+      "topicConfirmed": true,
+      "gifPath": "assets/gifs/group-10.gif",
       "members": [
         {
           "name": "유지윤",
