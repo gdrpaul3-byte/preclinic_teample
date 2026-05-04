@@ -151,6 +151,38 @@ IMAGE_PROMPTS: dict[int, dict[str, str]] = {
             "find a stable position. Loop-friendly, 4 seconds, no text changes."
         ),
     },
+    6: {
+        "image": (
+            "Clean side-by-side comparison illustration on a 16:9 canvas, "
+            "educational diagram aesthetic, blue-teal palette with green and "
+            "warm gold accents. Title at top: 'PRECLINICAL EVALUATION — "
+            "SMALL MOLECULE vs MONOCLONAL ANTIBODY'. Left panel labeled "
+            "'SMALL MOLECULE': a simple 2D ball-and-stick chemical structure, "
+            "an oral pill icon, and a single lab mouse silhouette with a "
+            "green checkmark. Below it three small metric pills: 'MW ~500 Da', "
+            "'ORAL', 'CROSS-SPECIES OK'. Right panel labeled 'MONOCLONAL "
+            "ANTIBODY (mAb)': a prominent Y-shaped antibody molecule rendered "
+            "in soft gold, an IV infusion bag with a drip drop, plus two "
+            "species silhouettes side by side — a humanized mouse and a "
+            "cynomolgus monkey — with subtle caution markers indicating "
+            "species-specific binding considerations. Below it three small "
+            "metric pills: 'MW ~150 kDa', 'IV / SC', 'SPECIES-SPECIFIC'. A "
+            "vertical hairline divides the panels with a tiny label "
+            "'KEY DIFFERENCES' at the top of the divider. Minimalist, high "
+            "contrast, clean uppercase English labels, no extra text."
+        ),
+        "motion": (
+            "Slow camera reveal panning from the left small-molecule panel "
+            "to the right monoclonal antibody panel. On the left, the small "
+            "ball-and-stick chemical structure rotates gently, the oral pill "
+            "drops down toward the mouse with a green checkmark pulse. On "
+            "the right, the gold Y-shaped antibody floats and rotates slowly, "
+            "the IV bag releases a single drop, and the humanized mouse and "
+            "cynomolgus monkey silhouettes briefly highlight to indicate "
+            "species-specific binding. The metric pills appear sequentially "
+            "underneath each panel. Loop-friendly, 4 seconds, no text changes."
+        ),
+    },
     5: {
         "image": (
             "Clean scientific illustration of the blood-brain barrier, "
